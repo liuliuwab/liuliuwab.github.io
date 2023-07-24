@@ -6,7 +6,98 @@
 
 
 <html class="theme-next pisces use-motion" lang="zh-CN">
-<head>
+<head><!-- hexo injector head_begin start --><style type="text/css">.douban-card-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-height: 400px;
+}
+
+.douban-card {
+    display: flex;
+    margin: 30px 10px;
+    padding: 15px;
+    border-radius: 15px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.douban-card:hover {
+    text-decoration: none;
+}
+
+.douban-card-bgimg {
+    position: absolute;
+    width: 115%;
+    height: 115%;
+    filter: blur(15px) brightness(0.6);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.douban-card-img {
+    position: relative;
+    height: 130px;
+    width: 80px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.douban-card-left:hover .douban-card-img {
+    filter: blur(5px) brightness(0.6);
+    transform: perspective(800px) rotateX(180deg);
+}
+
+.douban-card-left .douban-card-img {
+    transition: all 500ms ease;
+}
+
+.douban-card-left {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.douban-card-left .douban-card-status {
+    height: 130px;
+    width: 80px;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 30%;
+    transform: rotateX(180deg);
+    backface-visibility: hidden;
+    transition: all 500ms ease;
+}
+
+.douban-card-left:hover .douban-card-status {
+    transform: perspective(800px) rotateX(0deg);
+}
+
+.douban-card-right {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+    font-size: 16px;
+    font-family: "Courier New", Courier, monospace;
+    line-height: 1.3;
+    color: antiquewhite;
+}
+
+.douban-card-item {
+    margin-top: 4px;
+}
+</style><!-- hexo injector head_begin end -->
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
@@ -87,11 +178,8 @@
 <meta property="og:description" content="你需要把本地的git图上传到网上，有个网址供我们使用。有个好玩儿的网站网址是：https:&#x2F;&#x2F;giphy.com&#x2F; 先注册，登录之后就可以把本地git图传上去返回一个网址啦 via GIPHY  还有一个方式就是你把你想上传的gif图片下载到本地，在网站上譬如掘金点击图片或者gif，就会出现一排自动生成的代码，复制粘贴即可">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/70be12d645224ed598dc721362719b7b~tplv-k3u1fbpfcp-watermark.image">
-<meta property="og:image" content="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d2c2d9629c074ac09d40c48259b29ed2~tplv-k3u1fbpfcp-watermark.image">
-<meta property="og:image" content="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/52bced216ebd4b5a8d26b5e632c19f76~tplv-k3u1fbpfcp-watermark.image">
-<meta property="og:image" content="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6b38b2efaf50466eb93e5b7f3c5043ca~tplv-k3u1fbpfcp-watermark.image">
 <meta property="article:published_time" content="2022-11-24T09:58:52.000Z">
-<meta property="article:modified_time" content="2023-01-09T02:53:37.892Z">
+<meta property="article:modified_time" content="2023-07-24T10:52:09.542Z">
 <meta property="article:author" content="liuliu">
 <meta property="article:tag" content="前端工具">
 <meta name="twitter:card" content="summary">
@@ -349,9 +437,7 @@
 <p><img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/70be12d645224ed598dc721362719b7b~tplv-k3u1fbpfcp-watermark.image" alt="image.png"><br>先注册，登录之后就可以把本地git图传上去返回一个网址啦</p>
 <div style="width:100%;height:0;padding-bottom:80%;position:relative;"><iframe src="https://giphy.com/embed/ihw84h2vgNsNDk4mqy" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a target="_blank" rel="noopener" href="https://giphy.com/stickers/yummy-fruity-andreeaillustration-ihw84h2vgNsNDk4mqy">via GIPHY</a></p>
 
-<p>还有一个方式就是你把你想上传的gif图片下载到本地，在网站上譬如掘金点击图片或者gif，就会出现一排自动生成的代码，复制粘贴即可<br><img src="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d2c2d9629c074ac09d40c48259b29ed2~tplv-k3u1fbpfcp-watermark.image" alt="image.png"></p>
-<p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/52bced216ebd4b5a8d26b5e632c19f76~tplv-k3u1fbpfcp-watermark.image" alt="image.png"></p>
-<p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6b38b2efaf50466eb93e5b7f3c5043ca~tplv-k3u1fbpfcp-watermark.image" alt="giphy (1).gif"></p>
+<p>还有一个方式就是你把你想上传的gif图片下载到本地，在网站上譬如掘金点击图片或者gif，就会出现一排自动生成的代码，复制粘贴即可</p>
 
       
     </div>
@@ -382,14 +468,18 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2022/11/24/GPT/" rel="next" title="好到令人震惊的人工智能">
+                <i class="fa fa-chevron-left"></i> 好到令人震惊的人工智能
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2022/11/24/GPT/" rel="prev" title="好到令人震惊的人工智能">
-                好到令人震惊的人工智能 <i class="fa fa-chevron-right"></i>
+              <a href="/2022/12/15/AI/" rel="prev" title="我让AI帮我画了一个网站logo">
+                我让AI帮我画了一个网站logo <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>

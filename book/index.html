@@ -6,7 +6,98 @@
 
 
 <html class="theme-next pisces use-motion" lang="zh-CN">
-<head>
+<head><!-- hexo injector head_begin start --><style type="text/css">.douban-card-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-height: 400px;
+}
+
+.douban-card {
+    display: flex;
+    margin: 30px 10px;
+    padding: 15px;
+    border-radius: 15px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.douban-card:hover {
+    text-decoration: none;
+}
+
+.douban-card-bgimg {
+    position: absolute;
+    width: 115%;
+    height: 115%;
+    filter: blur(15px) brightness(0.6);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.douban-card-img {
+    position: relative;
+    height: 130px;
+    width: 80px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.douban-card-left:hover .douban-card-img {
+    filter: blur(5px) brightness(0.6);
+    transform: perspective(800px) rotateX(180deg);
+}
+
+.douban-card-left .douban-card-img {
+    transition: all 500ms ease;
+}
+
+.douban-card-left {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.douban-card-left .douban-card-status {
+    height: 130px;
+    width: 80px;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 30%;
+    transform: rotateX(180deg);
+    backface-visibility: hidden;
+    transition: all 500ms ease;
+}
+
+.douban-card-left:hover .douban-card-status {
+    transform: perspective(800px) rotateX(0deg);
+}
+
+.douban-card-right {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+    font-size: 16px;
+    font-family: "Courier New", Courier, monospace;
+    line-height: 1.3;
+    color: antiquewhite;
+}
+
+.douban-card-item {
+    margin-top: 4px;
+}
+</style><!-- hexo injector head_begin end -->
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
@@ -79,13 +170,15 @@
 
 
 
+<meta name="description" content="电影&amp;&amp;书籍&amp;&amp;音乐">
 <meta property="og:type" content="website">
-<meta property="og:title" content="关于那些陪伴着我的小事 书 &amp; 电影 &amp;音乐">
+<meta property="og:title" content="liuliu&#39;s blog">
 <meta property="og:url" content="http://liuliuwab.github.io/book/index.html">
 <meta property="og:site_name" content="liuliu&#39;s blog">
+<meta property="og:description" content="电影&amp;&amp;书籍&amp;&amp;音乐">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-12-14T04:39:04.000Z">
-<meta property="article:modified_time" content="2022-12-16T08:32:28.304Z">
+<meta property="article:published_time" content="2023-07-24T10:53:07.399Z">
+<meta property="article:modified_time" content="2023-07-24T10:53:07.399Z">
 <meta property="article:author" content="liuliu">
 <meta name="twitter:card" content="summary">
 
@@ -123,7 +216,7 @@
 
 
 
-  <title>关于那些陪伴着我的小事 书 & 电影 &音乐 | liuliu's blog</title>
+  <title> | liuliu's blog</title>
   
 
 
@@ -263,7 +356,7 @@
     <div class="post-block page">
       <header class="post-header">
 
-	<h1 class="post-title" itemprop="name headline">关于那些陪伴着我的小事 书 & 电影 &音乐</h1>
+	<h1 class="post-title" itemprop="name headline"></h1>
 
 
 
@@ -275,14 +368,7 @@
       <div class="post-body">
         
         
-          <div class="category-all-page">
-            <div class="category-all-title">
-                No categories
-            </div>
-            <div class="category-all">
-              
-            </div>
-          </div>
+          <h4 id="电影-amp-amp-书籍-amp-amp-音乐"><a href="#电影-amp-amp-书籍-amp-amp-音乐" class="headerlink" title="电影&amp;&amp;书籍&amp;&amp;音乐"></a>电影&amp;&amp;书籍&amp;&amp;音乐</h4>
         
       </div>
       
@@ -324,8 +410,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -408,6 +503,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%94%B5%E5%BD%B1-amp-amp-%E4%B9%A6%E7%B1%8D-amp-amp-%E9%9F%B3%E4%B9%90"><span class="nav-number">1.</span> <span class="nav-text">电影&amp;&amp;书籍&amp;&amp;音乐</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       

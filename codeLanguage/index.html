@@ -6,7 +6,98 @@
 
 
 <html class="theme-next pisces use-motion" lang="zh-CN">
-<head>
+<head><!-- hexo injector head_begin start --><style type="text/css">.douban-card-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-height: 400px;
+}
+
+.douban-card {
+    display: flex;
+    margin: 30px 10px;
+    padding: 15px;
+    border-radius: 15px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.douban-card:hover {
+    text-decoration: none;
+}
+
+.douban-card-bgimg {
+    position: absolute;
+    width: 115%;
+    height: 115%;
+    filter: blur(15px) brightness(0.6);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.douban-card-img {
+    position: relative;
+    height: 130px;
+    width: 80px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.douban-card-left:hover .douban-card-img {
+    filter: blur(5px) brightness(0.6);
+    transform: perspective(800px) rotateX(180deg);
+}
+
+.douban-card-left .douban-card-img {
+    transition: all 500ms ease;
+}
+
+.douban-card-left {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.douban-card-left .douban-card-status {
+    height: 130px;
+    width: 80px;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 30%;
+    transform: rotateX(180deg);
+    backface-visibility: hidden;
+    transition: all 500ms ease;
+}
+
+.douban-card-left:hover .douban-card-status {
+    transform: perspective(800px) rotateX(0deg);
+}
+
+.douban-card-right {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+    font-size: 16px;
+    font-family: "Courier New", Courier, monospace;
+    line-height: 1.3;
+    color: antiquewhite;
+}
+
+.douban-card-item {
+    margin-top: 4px;
+}
+</style><!-- hexo injector head_begin end -->
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
@@ -79,15 +170,15 @@
 
 
 
-<meta name="description" content="关于我的技术栈主要是 前端3件套 html  css  javaScript  主要用的框架：vue2  vue3 react目前开发：react ts代码管理：git代码工具：vs code正在了解：vim准备了解：node  date: 2022-12-14 12:02:11      .sty1{         color:#e47763;         background-color">
+<meta name="description" content="关于我的技术栈主要是 前端3件套 html  css  javaScript  主要用的框架：vue2  vue3 react目前开发：react ts node代码管理：git代码工具：vs code正在了解：vim  date: 2022-12-14 12:02:11      .sty1{         color:#e47763;         background-color: #e">
 <meta property="og:type" content="website">
 <meta property="og:title" content="liuliu&#39;s blog">
 <meta property="og:url" content="http://liuliuwab.github.io/codeLanguage/index.html">
 <meta property="og:site_name" content="liuliu&#39;s blog">
-<meta property="og:description" content="关于我的技术栈主要是 前端3件套 html  css  javaScript  主要用的框架：vue2  vue3 react目前开发：react ts代码管理：git代码工具：vs code正在了解：vim准备了解：node  date: 2022-12-14 12:02:11      .sty1{         color:#e47763;         background-color">
+<meta property="og:description" content="关于我的技术栈主要是 前端3件套 html  css  javaScript  主要用的框架：vue2  vue3 react目前开发：react ts node代码管理：git代码工具：vs code正在了解：vim  date: 2022-12-14 12:02:11      .sty1{         color:#e47763;         background-color: #e">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-01-06T08:34:50.566Z">
-<meta property="article:modified_time" content="2023-01-06T08:34:50.566Z">
+<meta property="article:published_time" content="2023-07-24T10:54:45.433Z">
+<meta property="article:modified_time" content="2023-07-24T10:54:45.433Z">
 <meta property="article:author" content="liuliu">
 <meta name="twitter:card" content="summary">
 
@@ -279,7 +370,7 @@
         
           <h4 id="关于我的技术栈"><a href="#关于我的技术栈" class="headerlink" title="关于我的技术栈"></a>关于我的技术栈</h4><p>主要是 前端3件套 <font class='sty1' face="KAI">html</font>  <font class='sty1' face="KAI">css</font>  <font class='sty1' face="KAI">javaScript</font></p>
 <blockquote>
-<p>主要用的框架：<font class='sty2' face="KAI">vue2</font>  <font class='sty2' face="KAI">vue3</font> <font class='sty2' face="KAI">react</font><br>目前开发：<font class='sty2' face="KAI">react</font> <font class='sty2' face="KAI">ts</font><br>代码管理：<font class='sty3' face="KAI">git</font><br>代码工具：<code>vs code</code><br>正在了解：<code>vim</code><br>准备了解：<code>node</code></p>
+<p>主要用的框架：<font class='sty2' face="KAI">vue2</font>  <font class='sty2' face="KAI">vue3</font> <font class='sty2' face="KAI">react</font><br>目前开发：<font class='sty2' face="KAI">react</font> <font class='sty2' face="KAI">ts</font> <font class='sty2' face="KAI">node</font><br>代码管理：<font class='sty3' face="KAI">git</font><br>代码工具：<code>vs code</code><br>正在了解：<code>vim</code></p>
 </blockquote>
 <p>date: 2022-12-14 12:02:11</p>
 <style scoped>

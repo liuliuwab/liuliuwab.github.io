@@ -6,7 +6,98 @@
 
 
 <html class="theme-next pisces use-motion" lang="zh-CN">
-<head>
+<head><!-- hexo injector head_begin start --><style type="text/css">.douban-card-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-height: 400px;
+}
+
+.douban-card {
+    display: flex;
+    margin: 30px 10px;
+    padding: 15px;
+    border-radius: 15px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.douban-card:hover {
+    text-decoration: none;
+}
+
+.douban-card-bgimg {
+    position: absolute;
+    width: 115%;
+    height: 115%;
+    filter: blur(15px) brightness(0.6);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.douban-card-img {
+    position: relative;
+    height: 130px;
+    width: 80px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.douban-card-left:hover .douban-card-img {
+    filter: blur(5px) brightness(0.6);
+    transform: perspective(800px) rotateX(180deg);
+}
+
+.douban-card-left .douban-card-img {
+    transition: all 500ms ease;
+}
+
+.douban-card-left {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.douban-card-left .douban-card-status {
+    height: 130px;
+    width: 80px;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 30%;
+    transform: rotateX(180deg);
+    backface-visibility: hidden;
+    transition: all 500ms ease;
+}
+
+.douban-card-left:hover .douban-card-status {
+    transform: perspective(800px) rotateX(0deg);
+}
+
+.douban-card-right {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+    font-size: 16px;
+    font-family: "Courier New", Courier, monospace;
+    line-height: 1.3;
+    color: antiquewhite;
+}
+
+.douban-card-item {
+    margin-top: 4px;
+}
+</style><!-- hexo injector head_begin end -->
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
@@ -79,17 +170,19 @@
 
 
 
-<meta name="description" content="关于我&#x2F;私について                     很开心认识你哇      本人目前是深圳某厂的一名在职 前端攻城狮(其实就是个画图的-我说的我哈，不代表其他人)      常常跟代码较劲，当然大部分都是它占上风，bug是不可能写的，就算写了也不承认，希望能和它相爱相杀久一点吧。      目前很喜欢冲浪,已经当了差不多半年的周末浪人了(冲浪地点基本在西涌或者惠州)，还是觉得对">
+<meta name="description" content="关于我&#x2F;私について                     很开心认识你哇      本人目前是深圳的一名在职 前端攻城狮(其实就是个画图的-我说的我哈，不代表其他人)      常常跟代码较劲，当然大部分都是它占上风，bug是不可能写的，就算写了也不承认，希望能和它相爱相杀久一点吧。      目前很喜欢冲浪,已经当了差不多1年的周末浪人了(冲浪地点基本在西涌或者惠州)，还是觉得对大海">
 <meta property="og:type" content="website">
 <meta property="og:title" content="liuliu&#39;s blog">
 <meta property="og:url" content="http://liuliuwab.github.io/about/index.html">
 <meta property="og:site_name" content="liuliu&#39;s blog">
-<meta property="og:description" content="关于我&#x2F;私について                     很开心认识你哇      本人目前是深圳某厂的一名在职 前端攻城狮(其实就是个画图的-我说的我哈，不代表其他人)      常常跟代码较劲，当然大部分都是它占上风，bug是不可能写的，就算写了也不承认，希望能和它相爱相杀久一点吧。      目前很喜欢冲浪,已经当了差不多半年的周末浪人了(冲浪地点基本在西涌或者惠州)，还是觉得对">
+<meta property="og:description" content="关于我&#x2F;私について                     很开心认识你哇      本人目前是深圳的一名在职 前端攻城狮(其实就是个画图的-我说的我哈，不代表其他人)      常常跟代码较劲，当然大部分都是它占上风，bug是不可能写的，就算写了也不承认，希望能和它相爱相杀久一点吧。      目前很喜欢冲浪,已经当了差不多1年的周末浪人了(冲浪地点基本在西涌或者惠州)，还是觉得对大海">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-12-16T08:42:41.050Z">
-<meta property="article:modified_time" content="2022-12-16T08:42:41.050Z">
+<meta property="og:image" content="http://liuliuwab.github.io/images/aboutMe.jpg">
+<meta property="article:published_time" content="2023-06-30T03:41:07.686Z">
+<meta property="article:modified_time" content="2023-06-30T03:41:07.686Z">
 <meta property="article:author" content="liuliu">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://liuliuwab.github.io/images/aboutMe.jpg">
 
 
 
@@ -280,18 +373,15 @@
           <h4 id="关于我-x2F-私について"><a href="#关于我-x2F-私について" class="headerlink" title="关于我&#x2F;私について"></a>关于我&#x2F;私について</h4><br/>
 <div>
   <div>
-    <img decoding="async" align="left"  width=200 height=100 src=https://pic1.58cdn.com.cn/nowater/webim/big/n_v2aca77373720b4229a0946a1c7de68af8.png#center />
+    <img decoding="async" style="float:left; margin-right:20px;" width=200  src="/images/aboutMe.jpg" />
   </div>
   <div class='cont'>
      很开心认识你哇<br>
-     本人目前是深圳某厂的一名在职 <span class='lineThrough bagBlack'>前端攻城狮</span>(其实就是个画图的-我说的我哈，不代表其他人)
+     本人目前是深圳的一名在职 <span class='lineThrough bagBlack'>前端攻城狮</span>(其实就是个画图的-我说的我哈，不代表其他人)
      常常跟代码较劲，当然大部分都是它占上风，<span class='lineThrough'>bug是不可能写的</span>，就算写了也不承认，希望能和它相爱相杀久一点吧。<br>
-     目前很喜欢<span class='bagBlack'>冲浪</span>,已经当了差不多半年的周末浪人了(冲浪地点基本在西涌或者惠州)，还是觉得对大海以及海浪一无所知，也有较劲的时候，当然，基本是没什么胜算的那种...哈哈哈哈...如果你也喜欢冲浪，我们可以在海上见啊。
-</div> 
-
+     目前很喜欢<span class='bagBlack'>冲浪</span>,已经当了差不多1年的周末浪人了(冲浪地点基本在西涌或者惠州)，还是觉得对大海以及海浪一无所知，也有较劲的时候，当然，基本是没什么胜算的那种...哈哈哈哈...如果你也喜欢冲浪，我们可以在海上见啊。
+  </div>
 </div>
-
-
 
 <style>
 
