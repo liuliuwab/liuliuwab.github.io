@@ -1,0 +1,47 @@
+{
+  "movie": [
+    {
+      "status": "灯影绰约",
+      "title": "消失的她(2022)",
+      "director": "崔睿/刘翔",
+      "actors": "朱一龙/倪妮",
+      "publishDate": "2023-06-22(中国大陆)",
+      "rate": "6.6",
+      "img": "https://images.weserv.nl/?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2893270877.jpg",
+      "url": "https://movie.douban.com/subject/35660795"
+    },
+    {
+      "status": "灯影绰约",
+      "title": "怒呛人生Beef(2023)",
+      "director": "宮崎光代/杰克·施莱尔/李成真",
+      "actors": "史蒂文·元/黄阿丽",
+      "publishDate": "2023-04-06(美国)",
+      "rate": "8.7",
+      "img": "https://images.weserv.nl/?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2890296057.jpg",
+      "url": "https://movie.douban.com/subject/35413042"
+    }
+  ],
+  "book": [
+    {
+      "status": "见字如晤",
+      "title": "离开的，留下的",
+      "author": "[意]埃莱娜·费兰特",
+      "publishDate": "2017-10",
+      "rate": "8.9",
+      "img": "https://images.weserv.nl/?url=https://img2.doubanio.com/view/subject/s/public/s29535271.jpg",
+      "url": "https://book.douban.com/subject/27104959"
+    }
+  ],
+  "music": [
+    {
+      "status": "余音绕梁",
+      "title": "Dancingwithmyphone",
+      "actors": "HYBS",
+      "genre": "流行",
+      "publishDate": "2021-11-22",
+      "rate": "8.7",
+      "img": "https://images.weserv.nl/?url=https://img2.doubanio.com/view/subject/m/public/s34076103.jpg",
+      "url": "https://music.douban.com/subject/35711496"
+    }
+  ]
+}
