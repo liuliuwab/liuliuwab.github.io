@@ -2,46 +2,59 @@
   "movie": [
     {
       "status": "灯影绰约",
-      "title": "消失的她(2022)",
-      "director": "崔睿/刘翔",
-      "actors": "朱一龙/倪妮",
-      "publishDate": "2023-06-22(中国大陆)",
-      "rate": "6.6",
-      "img": "https://images.weserv.nl/?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2893270877.jpg",
-      "url": "https://movie.douban.com/subject/35660795"
-    },
-    {
-      "status": "灯影绰约",
-      "title": "怒呛人生Beef(2023)",
-      "director": "宮崎光代/杰克·施莱尔/李成真",
-      "actors": "史蒂文·元/黄阿丽",
-      "publishDate": "2023-04-06(美国)",
-      "rate": "8.7",
-      "img": "https://images.weserv.nl/?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2890296057.jpg",
-      "url": "https://movie.douban.com/subject/35413042"
+      "title": "可怜的东西PoorThings(2023)",
+      "director": "欧格斯·兰斯莫斯",
+      "actors": "艾玛·斯通/马克·鲁弗洛",
+      "publishDate": "2023-09-01(威尼斯电影节)",
+      "rate": "7.1",
+      "img": "https://images.weserv.nl/?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2897662939.jpg",
+      "url": "https://movie.douban.com/subject/35350109"
     }
   ],
   "book": [
     {
+      "status": "已阅读",
+      "title": "埃隆·马斯克传",
+      "author": "[美]沃尔特·艾萨克森",
+      "publishDate": "2023-9-12",
+      "rate": "8.6",
+      "img": "https://images.weserv.nl/?url=https://img1.doubanio.com/view/subject/s/public/s34654248.jpg",
+      "url": "https://book.douban.com/subject/36518892"
+    },
+    {
+      "status": "已阅读",
+      "title": "史蒂夫·乔布斯传",
+      "author": "[美]沃尔特·艾萨克森",
+      "publishDate": "2011-10-24",
+      "rate": "8.7",
+      "img": "https://images.weserv.nl/?url=https://img3.doubanio.com/view/subject/s/public/s6974202.jpg",
+      "url": "https://book.douban.com/subject/6798611"
+    },
+    {
+      "status": "准备阅读",
+      "title": "柏拉图与技术呆子",
+      "author": "[美]爱德华·阿什福德·李",
+      "publishDate": "2020-4",
+      "rate": "8.8",
+      "img": "https://images.weserv.nl/?url=https://img1.doubanio.com/view/subject/s/public/s33716318.jpg",
+      "url": "https://book.douban.com/subject/34971151"
+    },
+    {
+      "status": "正在阅读",
+      "title": "爱因斯坦的时空",
+      "author": "高涌全",
+      "publishDate": "2017-11",
+      "rate": "无",
+      "img": "https://images.weserv.nl/?url=https://img1.doubanio.com/view/subject/s/public/z33716318.jpg",
+      "url": "https://zh.annas-archive.org/md5/b433f13f0fdf64a92d699a35c7076731"
+    },
+    {
       "status": "见字如晤",
-      "title": "离开的，留下的",
-      "author": "[意]埃莱娜·费兰特",
-      "publishDate": "2017-10",
-      "rate": "8.9",
-      "img": "https://images.weserv.nl/?url=https://img2.doubanio.com/view/subject/s/public/s29535271.jpg",
-      "url": "https://book.douban.com/subject/27104959"
+      "title": "Touteàtoi",
+      "rate": "",
+      "img": "https://images.weserv.nl/?url=https://img9.doubanio.com/view/subject/m/public/s32582726.jpg",
+      "url": "https://book.douban.com/subject/33716318"
     }
   ],
-  "music": [
-    {
-      "status": "余音绕梁",
-      "title": "Dancingwithmyphone",
-      "actors": "HYBS",
-      "genre": "流行",
-      "publishDate": "2021-11-22",
-      "rate": "8.7",
-      "img": "https://images.weserv.nl/?url=https://img2.doubanio.com/view/subject/m/public/s34076103.jpg",
-      "url": "https://music.douban.com/subject/35711496"
-    }
-  ]
+  "music": []
 }
