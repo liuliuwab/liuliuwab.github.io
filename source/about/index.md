@@ -19,7 +19,7 @@
     background-color:pink;
 }
 .dc-left-img {
-  width:300px;
+  width:320px;
 	float: left;
   margin-right: 20px !important; /* 右侧边距 */
   margin-bottom: 0 !important; /* 尝试使用 !important 来确保应用 */
