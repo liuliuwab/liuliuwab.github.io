@@ -37,8 +37,10 @@
             gap: 10px;
         }
         .gallery img {
-            width: 200px;
-            height: auto;
+            width: 120px;
+            height: 180px;
+            /* margin-right: 10px; */
+            border-radius: 10px;
         }
     </style>
 </head>
